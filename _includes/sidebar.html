@@ -74,10 +74,10 @@
             </header>
             <p>{{ site.aboutme }}</p>
             <ul class="contact">
-                <li class="fa-envelope-o"><a href="#">{{ site.email }}</a></li>
+                <li class="fa-envelope-o"><a href="mailto:{{ site.email }}">{{ site.email }}</a></li>
                 <li class="fa-phone">{{ site.phone }}</li>
-                <li class="fa-home">1234 Somewhere Road #8254<br />
-                    Nashville, TN 00000-0000</li>
+                <li class="fa-home">{{ site.street_address }}<br />
+                    {{ site.city }}, {{ site.state }} {{ site.postal_code }}</li>
             </ul>
         </section>
 
