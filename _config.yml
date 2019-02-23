@@ -16,6 +16,7 @@
 title: HTML5 UP
 brand: Editorial
 email: email@example.com
+phone: +15555555555
 description: > # this means to ignore newlines until "baseurl:"
  A free and fully responsive site template by HTML5 UP and Jekyllized by Riyaad Azad.
 baseurl: "/html5up-editorial-jekyll" # the subpath of your site, e.g. /blog
